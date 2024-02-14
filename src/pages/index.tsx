@@ -11,9 +11,9 @@ export default function Home() {
 
   const mapContainer = useRef<any>(null);
   const map = useRef<any>(null);
-  const [lng, setLng] = useState(-70.9);
-  const [lat, setLat] = useState(42.35);
-  const [zoom, setZoom] = useState(9);
+  const [lng, setLng] = useState(37.6199019);
+  const [lat, setLat] = useState(55.754022);
+  const [zoom, setZoom] = useState(8);
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
