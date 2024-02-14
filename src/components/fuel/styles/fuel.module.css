@@ -1,0 +1,13 @@
+.window {
+	position: relative;
+	aspect-ratio: 1 / 1;
+	height: 100%;
+	padding: 10px;
+}
+
+.display {
+	border-radius: 30px;
+	background: #111111;
+	aspect-ratio: 1 / 1;
+	overflow: hidden;
+}
