@@ -41,7 +41,7 @@ const MapComponent = () => {
             getPosition: [dragula.lon, dragula.lat, dragula.alt / 1000],
             getTranslation: [0, 0, 0],
             mesh: 'CargoPlane.obj',
-            sizeScale: 0.01,
+            sizeScale: 0.001,
             loaders: [OBJLoader],
             // opacity: 0.1,
             pickable: true,
