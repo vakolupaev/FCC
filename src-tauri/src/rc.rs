@@ -10,7 +10,7 @@ use crate::enums::{ARMING, MODES};
 //9 - throttle
 
 pub fn rc(channels_mutex: &Arc<Mutex<[u16; 16]>>) {
-    let mode = MODES::_MANUAL as u16;
+    let mode = MODES::_FBWA as u16;
     let arming: u16 = ARMING::_ARM as u16;
     let channels_clone = Arc::clone(channels_mutex);
 
